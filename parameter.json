@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "name": {
+            "value": "loadbalancer1"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "tier": {
+            "value": "Regional"
+        },
+        "publicIPAddressName": {
+            "value": "loadbalancer1"
+        },
+        "IpZone": {
+            "value": [
+                "2"
+            ]
+        }
+    }
+}
